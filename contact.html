@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title style="color: rgb(255, 0, 0);">AP.Garáž</title>
+    <style>
+      body {
+        background-color: white;
+        color: rgb(0, 0, 0);
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      #header {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        padding: 15px;
+        text-align: center;
+      }
+
+      #header h1 {
+        margin: 0;
+      }
+
+      #nav {
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+      }
+
+      #nav a {
+        color: white;
+        margin: 0 5px;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+
+      #nav a:hover {
+        text-decoration: underline;
+      }
+
+      #main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+      }
+      
+
+      .product {
+        background-color: white;
+        border: 1px solid black;
+        margin: 25px;
+        padding: 25px;
+        text-align: center;
+        width: 300px;
+      }
+
+      .product img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .product h2 {
+        margin-top: 0;
+      }
+
+      .product p {
+        margin-bottom: 10px;
+      }
+
+      .product button {
+        background-color: red;
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        padding: 10px;
+        width: 100%;
+      }
+
+      .product button:hover {
+        background-color: #8b0000;
+      }
+
+      #footer {
+        background-color: black;
+        color: white;
+        padding: 50px;
+        text-align: center;
+      }
+
+      #contact-icon {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        color: white;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+        z-index: 1;
+      }
+
+      #cart {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        width: 150px;
+        height: 50px;
+        background-color: red;
+        color: white;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 25px;
+        cursor: pointer;
+        z-index: 1;
+      }
+
+      #cart:hover {
+        background-color: #8b0000;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <h1 style="color: rgb(255, 0, 0);">AP.Garáž</h1>
+    </div>
+    <div id="nav">
+      
+
+      
+
+      <style>
+      body {
+        font-size: 18px;
+      }
+      
+      #about-button {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-bottom: 30px;
+      }
+      
+      #about-modal {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        z-index: 1;
+      }
+      
+      #about-modal img {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      #close-button {
+        background-color: rgb(255, 0, 0);
+        color: white;
+        padding: 18px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+      </style>
+      
+      <body>
+        <button id="about-button" style="color: r;">Kúpa služby/kontakt</button>
+        <div id="about-modal">
+          <h2 style="color: rgb(255, 0, 0);">Kúpa služby/kontakt</h2>
+          <p style="color: black;">Pre záujem kontaktujte nás na email: ap.garazinfo@gmail.com tel.kontakt: 0911 200 857</p>
+          
+          <button id="close-button">Zavrieť</button>
+        </div>
+        <script>
+          var aboutButton = document.getElementById("about-button");
+          var aboutModal = document.getElementById("about-modal");
+          var closeButton = document.getElementById("close-button");
+          
+          aboutButton.addEventListener("click", function() {
+            aboutModal.style.display = "block";
+          });
+          
+          closeButton.addEventListener("click", function() {
+            aboutModal.style.display = "none";
+          });
+        </script>
+      </body>
+
+      
+      
+
+</script>
+      
+    </div>
+    <div id="main">
+      <div class="product">
+         <img src="apgarazobrazkyfake/tepovanie.png" alt="Tepovanie">
+        <h2 style="color: rgb(255, 0, 0);">Tepovanie interiéru</h2>
+        
+        </div>
+        <div class="product">
+          <img src="apgarazobrazkyfake/Leštenie kožených sedadiel.png" alt="Leštenie kožených sedadiel" />
+          <h2 style="color: rgb(255, 0, 0);">Leštenie kožených sedadiel</h2>
+         
+        </div>
+        <div class="product">
+          <img src="apgarazobrazkyfake/Leštenie laku.png" alt="Leštenie laku" />
+          <h2 style="color: rgb(255, 0, 0);">Leštenie laku</h2>
+          
+        </div>
+        <div class="product">
+          <img src="apgarazobrazkyfake/Rozleštenie laku.png" alt="Služba 4" />
+          <h2 style="color: rgb(255, 0, 0);">Rozleštenie laku</h2>
+        
+        </div>
+        <div class="product">
+          <img src="apgarazobrazkyfake/1-2 krokové rozleštenie laku.png" alt="služba 5" />
+          <h2 style="color: rgb(255, 0, 0);">1-2 krokové rozleštenie laku</h2>
+          
+        </div>
+        <div class="product">
+          <img src="apgarazobrazkyfake/Nanesenie tekutých stieračov.png" alt="Služba 6" />
+          <h2 style="color: rgb(255, 0, 0);">Nanesenie tekutých stieračov</h2>
+        
+        </div>
+        <div class="product">
+          <img src="apgarazobrazkyfake/Dezinfekcia interieru ozónom.png" alt="Služba 7" />
+          <h2 style="color: rgb(255, 0, 0);">Dezinfekcia interieru ozónom</h2>
+         
+        </div>
+        <div class="product">
+          <img src="apgarazobrazkyfake/Detailing interiéru.png" alt="Služba 8" />
+          <h2 style="color: rgb(255, 0, 0);">Detailing interiéru</h2>
+          
+        </div>
+        <div class="product">
+          <img src="apgarazobrazkyfake/Detailing exteriéru.png" alt="Služba 9" />
+          <h2 style="color: rgb(255, 0, 0);">Detailing exteriéru</h2>
+         
+        </div>
+        <div class="product">
+          <img src="apgarazobrazkyfake/Čistenie motorového priestoru.png" alt="Služba 10" />
+          <h2 style="color: rgb(255, 0, 0);">Čistenie motorového priestoru</h2>
+          
+        </div>
+        <div class="product">
+          <img src="apgarazobrazkyfake/Detailing zliatinových diskov kolies.png" alt="Služba 11" />
+          <h2 style="color: rgb(255, 0, 0);">Detailing zliatinových diskov kolies</h2>
+
+        </div>
+        <div class="product">
+          <img src="apgarazobrazkyfake/Keramická ochrana laku.png" alt="Služba 12" />
+          <h2 style="color: rgb(255, 0, 0);">Keramická ochrana laku</h2>
+        </div>
